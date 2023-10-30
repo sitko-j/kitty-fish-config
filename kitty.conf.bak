@@ -23,57 +23,61 @@ italic_font auto
 bold_font auto
 bold_italic_font auto
 font_size 12.0
-# cursor #8fee96
+
+cursor #8fee96
 cursor_shape block
 
 term xterm-256color
+background_opacity 0.85
 
 # Kanagawa Wave color scheme
-# background #1F1F28
-# foreground #DCD7BA
-# selection_background #2D4F67
-# selection_foreground #C8C093
-# url_color #72A7BC
-# cursor #C8C093
+
+background #1F1F28
+foreground #DCD7BA
+selection_background #2D4F67
+selection_foreground #C8C093
+url_color #72A7BC
+cursor #C8C093
 
 # Tabs
-# active_tab_background #1F1F28
-# active_tab_foreground #C8C093
-# inactive_tab_background  #1F1F28
-# inactive_tab_foreground #727169
+active_tab_background #1F1F28
+active_tab_foreground #C8C093
+inactive_tab_background  #1F1F28
+inactive_tab_foreground #727169
 #tab_bar_background #15161E
 
 # normal
-# color0 #16161D
-# color1 #C34043
-# color2 #76946A
-# color3 #C0A36E
-# color4 #7E9CD8
-# color5 #957FB8
-# color6 #6A9589
-# color7 #C8C093
+color0 #16161D
+color1 #C34043
+color2 #76946A
+color3 #C0A36E
+color4 #7E9CD8
+color5 #957FB8
+color6 #6A9589
+color7 #C8C093
 
 # bright
-# color8  #727169
-# color9  #E82424
-# color10 #98BB6C
-# color11 #E6C384
-# color12 #7FB4CA
-# color13 #938AA9
-# color14 #7AA89F
-# color15 #DCD7BA
+color8  #727169
+color9  #E82424
+color10 #98BB6C
+color11 #E6C384
+color12 #7FB4CA
+color13 #938AA9
+color14 #7AA89F
+color15 #DCD7BA
 
 
 # extended colors
-# color16 #FFA066
-# color17 #FF5D62
+color16 #FFA066
+color17 #FF5D62
 
 # Gruvbox color scheme:
-# foreground #ebdbb3
-# background #272727
-# selection_foreground #655b53
-# selection_background #ebdbb2
-# url_color #d65c0d
+
+foreground #ebdbb3
+background #272727
+selection_foreground #655b53
+selection_background #ebdbb2
+url_color #d65c0d
 
 # Resizing hotkey config
 
@@ -119,9 +123,3 @@ map ctrl+home resize_window reset
 #color7   #c0b18b
 #color15  #d8d8d8
 
-
-
-# BEGIN_KITTY_THEME
-# Catppuccin-Macchiato
-include current-theme.conf
-# END_KITTY_THEME
